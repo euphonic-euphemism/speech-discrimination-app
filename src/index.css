@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+  /* Use standard CSS for the background to avoid @apply errors during build */
+  background-color: #f8fafc; /* This is the hex code for slate-50 */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
